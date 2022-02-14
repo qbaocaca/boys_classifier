@@ -95,4 +95,4 @@
 
 ### - **Classification report and confusion matrix heatmap**
 
-![cm](images/cm.png)
+![confusion](images/confusion.png)
