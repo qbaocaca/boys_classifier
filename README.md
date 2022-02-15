@@ -4,7 +4,7 @@
 
 &nbsp;
 
-### Everything from tutoring, analysis, to evaluation is documented in here. Please check them out for yourself.
+### Everything from tutoring, analysis, to evaluation is documented here. Please check them out for yourself.
 
 ### - _Full Pytorch training pipeline on image classification task [ part1 ]_
 
@@ -12,7 +12,7 @@
 
 &nbsp;
 
-### _Most of my implementations are based off Aladdin Persson and Python Engineer. Definitely check them out!_
+### _Most of my implementations are based off [Aladdin Persson] and [Python Engineer]. Definitely check them out!_
 
 &nbsp;
 
@@ -24,7 +24,9 @@
 
 ### - a script for loading model for inference (showing the results!)
 
-### - trained model for loading (with 67% accuracy). _Sorry! Don't expect more. Please see my blog post for explanation._
+### - trained model for loading (with 67% accuracy).
+
+_Sorry! Don't blame me. Please see my blogs for evaluations._
 
 ### - some helper functions on structuring the dataset (i.e: utils)
 
@@ -48,13 +50,19 @@
 
 ## Some results
 
-### - **Visualize the dataset**
+## - **Visualize the dataset**
 
 ![image1](images/visualize.PNG)
 
 &nbsp;
 
-### - **Training epochs**
+## - **Hyper-parameter search**
+
+![search](images/search.PNG)
+
+&nbsp;
+
+## - **Training epochs**
 
     Epoch 126/200
     Step 33/33, train loss = 47.72,  train acc = 59.35
@@ -73,13 +81,13 @@
 
 &nbsp;
 
-### - **Validation accuracy**
+## - **Validation accuracy**
 
 ![val_acc](images/acc.PNG)
 
 &nbsp;
 
-### - **Validation loss**
+## - **Validation loss**
 
 ![val_acc](images/loss.PNG)
 
@@ -97,19 +105,23 @@
 
 &nbsp;
 
-### - **Predictions**
+## - **Predictions**
 
 ![predict1](images/predict1.PNG)
-
-&nbsp;
 
 ![predict2](images/pred2.PNG)
 
 &nbsp;
 
-### - **Classification report and confusion matrix heatmap**
+## - **Classification report and confusion matrix heatmap**
 
 ![confusion](images/confusion.PNG)
+
+&nbsp;
+
+## - **Predictions in batch**
+
+![batch](images/batch.PNG)
 
 [part1]: https://blogbybao.wordpress.com/2022/02/13/full-pytorch-training-pipeline-on-image-classification-task/
 [part2]: https://blogbybao.wordpress.com/2022/02/14/full-pytorch-training-pipeline-on-image-classification-task-part2/
