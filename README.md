@@ -4,6 +4,18 @@
 
 &nbsp;
 
+### Everything from tutoring, analysis, to evaluation is documented in here. Please check them out for yourself.
+
+### - _Full Pytorch training pipeline on image classification task [ part1 ]_
+
+### - _Full Pytorch training pipeline on image classification task [ part2 ]_
+
+&nbsp;
+
+### _Most of my implementations are based off Aladdin Persson and Python Engineer. Definitely check them out!_
+
+&nbsp;
+
 ## In this repository, there are:
 
 ### - a main script for training (using the pretrained googlenet and parameter freezing).
@@ -11,6 +23,8 @@
 ### - a script for tuning (i.e: hyperparameter search and testing out with different models).
 
 ### - a script for loading model for inference (showing the results!)
+
+### - trained model for loading (with 67% accuracy). _Sorry! Don't expect more. Please see my blog post for explanation._
 
 ### - some helper functions on structuring the dataset (i.e: utils)
 
@@ -95,4 +109,9 @@
 
 ### - **Classification report and confusion matrix heatmap**
 
-![confusion](images/confusion.png)
+![confusion](images/confusion.PNG)
+
+[part1]: https://blogbybao.wordpress.com/2022/02/13/full-pytorch-training-pipeline-on-image-classification-task/
+[part2]: https://blogbybao.wordpress.com/2022/02/14/full-pytorch-training-pipeline-on-image-classification-task-part2/
+[aladdin persson]: https://www.youtube.com/playlist?list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz
+[python engineer]: https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4
