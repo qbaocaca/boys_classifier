@@ -54,6 +54,12 @@ _Sorry! Don't blame me. Please see my blogs for evaluations._
 
 ![image1](images/visualize.PNG)
 
+### I have updated two ways the images could be visualized.
+
+### - One is via the imshow2 function which employs the torchvision.utils.make_grid. This way the images are put next to each other without spaces. Title only looks good when the batch_size of the loader is small (i.e: preferably not 64, only then title is not required). Right above!
+
+### - Two is via the imshow1 function which divides the plt in subplots. This way is preferable when title is needed for each image (i.e: visualize the model output). The images are separated by spaces and require the input of num_row and num_col of the grid. See below!
+
 &nbsp;
 
 ## - **Hyper-parameter search**
@@ -121,7 +127,7 @@ _Sorry! Don't blame me. Please see my blogs for evaluations._
 
 ## - **Predictions in batch**
 
-![batch](images/batch.PNG)
+![batch](images/update.JPG)
 
 [part1]: https://blogbybao.wordpress.com/2022/02/13/full-pytorch-training-pipeline-on-image-classification-task/
 [part2]: https://blogbybao.wordpress.com/2022/02/14/full-pytorch-training-pipeline-on-image-classification-task-part2/
