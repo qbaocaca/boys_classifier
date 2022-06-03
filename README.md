@@ -4,7 +4,7 @@
 
 &nbsp;
 
-### Everything from tutoring, analysis, to evaluation is documented here. Please check them out for yourself.
+### Analysis and evaluation are documented here. Please check them out yourself.
 
 ### - _Full Pytorch training pipeline on image classification task [ part1 ]_
 
@@ -20,17 +20,15 @@
 
 ### - a main script for training (using the pretrained googlenet and parameter freezing).
 
-### - a script for tuning (i.e: hyperparameter search and testing out with different models).
+### - a script for hyperparameter search.
 
-### - a script for loading model for inference (showing the results!)
+### - a script for loading the model for inference.
 
-### - trained model for loading (with 67% accuracy).
+### - a trained model (47% accuracy).
 
-_Sorry! Don't blame me. Please see my blogs for evaluations._
+### - some helper functions
 
-### - some helper functions on structuring the dataset (i.e: utils)
-
-### - model dataset
+### - a dataset
 
 &nbsp;
 
@@ -48,17 +46,11 @@ _Sorry! Don't blame me. Please see my blogs for evaluations._
 
 &nbsp;
 
-## Some results
+## Results
 
-## - **Visualize the dataset**
+## - **Visualization**
 
 ![image1](images/visualize.PNG)
-
-### I have updated two ways the images could be visualized.
-
-### - One is via the imshow2 function which employs the torchvision.utils.make_grid. This way the images are put next to each other without spaces. Title only looks good when the batch_size of the loader is small (i.e: preferably not 64, only then title is not required). Right above!
-
-### - Two is via the imshow1 function which divides the plt in subplots. This way is preferable when title is needed for each image (i.e: visualize the model output). The images are separated by spaces and require the input of num_row and num_col of the grid. See below!
 
 &nbsp;
 
@@ -99,7 +91,9 @@ _Sorry! Don't blame me. Please see my blogs for evaluations._
 
 &nbsp;
 
-### - **Check accuracy**
+## - **Evaluation**
+
+### **Check accuracy of each class**
 
     Test Acc
     Got 13/30 correct samples over 43.33%
@@ -111,21 +105,21 @@ _Sorry! Don't blame me. Please see my blogs for evaluations._
 
 &nbsp;
 
-## - **Predictions**
-
-![predict1](images/predict1.PNG)
-
-![predict2](images/pred2.PNG)
-
-&nbsp;
-
-## - **Classification report and confusion matrix heatmap**
+### **Classification report and confusion matrix heatmap**
 
 ![confusion](images/confusion.PNG)
 
 &nbsp;
 
-## - **Predictions in batch**
+## - **Predictions**
+
+### **Single**
+
+![predict2](images/pred2.PNG)
+
+&nbsp;
+
+### **In batch**
 
 ![batch](images/update.JPG)
 
