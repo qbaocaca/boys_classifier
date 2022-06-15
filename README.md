@@ -1,22 +1,18 @@
 # image_classification on boys dataset
 
-### _On this assignment, I create a custom dataset of 5 male modelsin a full pytorch training pipeline. I use a pretrained model and transfer learning, as well as do hyper-parameter search to help increase the accuracy._
+### _On this project, I create a custom dataset of 5 male models and conduct a full pytorch training pipeline. I use a pretrained model and transfer learning, as well as do hyper-parameter search to help increase the accuracy._
 
-&nbsp;
+## **Analysis and evaluation are documented here.**
 
-### Analysis and evaluation are documented here.
+### - _Full Pytorch training pipeline on image classification task [part1]_
 
-### - _Full Pytorch training pipeline on image classification task [ part1 ]_
-
-### - _Full Pytorch training pipeline on image classification task [ part2 ]_
-
-&nbsp;
+### - _Full Pytorch training pipeline on image classification task [part2]_
 
 ### _Most of my implementations are based off [Aladdin Persson] and [Python Engineer]._
 
 &nbsp;
 
-## In this repository, there are:
+## **In this repository, there are:**
 
 ### - a main script for training (using the pretrained vgg16 and transfer learning).
 
@@ -32,7 +28,7 @@
 
 &nbsp;
 
-## Dataset structure
+## **Dataset structure**
 
     train/val
     |_________chau_minh_chi
@@ -43,10 +39,10 @@
               |_________keita_machida_01.jpg
               |_________keita_machida_02.jpg
               ...
-
+              
 &nbsp;
-
-## Results
+              
+## **Results**
 
 ## - **Visualization**
 
