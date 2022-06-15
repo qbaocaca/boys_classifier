@@ -1,14 +1,22 @@
-# image_classification on boys dataset
+# image_classification on boys dataset 🔥
+
+<div align="center">
+  <img alt="baocaca | fired_neuron" width="500" height="300" src="https://algotech.netlify.com/img/image_class/train.gif" />
+</div>
 
 ### _On this project, I create a custom dataset of 5 male models and conduct a full pytorch training pipeline. I use a pretrained model and transfer learning, as well as do hyper-parameter search to help increase the accuracy._
 
-## **Analysis and evaluation are documented here.**
+## 📺 **Youtube Videos:**
+<!-- YOUTUBE:START -->
+<!-- YOUTUBE:END -->
+
+## **✍️ Analysis and evaluation are documented here.**
 
 ### - _Full Pytorch training pipeline on image classification task [part1]_
 
 ### - _Full Pytorch training pipeline on image classification task [part2]_
 
-### _Most of my implementations are based off [Aladdin Persson] and [Python Engineer]._
+### _📺 Most of my implementations are based off [Aladdin Persson] and [Python Engineer]._
 
 &nbsp;
 
@@ -20,7 +28,7 @@
 
 ### - a script for loading the model either for resumed training or for inference.
 
-### - [a trained model] (45% accuracy).
+### - [a trained model] (45% accuracy) 😬.
 
 ### - some helper functions
 
@@ -28,7 +36,7 @@
 
 &nbsp;
 
-## **Dataset structure**
+## **📰 Dataset structure**
 
     train/val
     |_________chau_minh_chi
@@ -42,7 +50,7 @@
               
 &nbsp;
               
-## **Results**
+## **Results 😀**
 
 ## - **Visualization**
 
@@ -50,13 +58,13 @@
 
 &nbsp;
 
-## - **Hyper-parameter search**
+## - **😑 Hyper-parameter search**
 
 ![search](images/Search.JPG)
 
 &nbsp;
 
-## - **Training epochs**
+## - **Training epochs 💥**
 
     ==> Saving new best
     Epoch 1/25
@@ -78,7 +86,7 @@
 
 &nbsp;
 
-## - **Loss and accuracy**
+## - **😌 Loss and accuracy**
 
 ![lossacc](images/newdrawing.JPG)
 
@@ -86,7 +94,7 @@
 
 ## - **Evaluation**
 
-### **Accuracy of each class**
+### **Accuracy of each class 😔**
 
     Test Acc
     Got 13/30 correct samples over 43.33%
@@ -98,7 +106,7 @@
 
 &nbsp;
 
-### **Classification report and confusion matrix heatmap**
+### **😞 Classification report and confusion matrix heatmap**
 
 ![confusion](images/confusion.PNG)
 
@@ -106,13 +114,13 @@
 
 ## - **Predictions**
 
-### **Single**
+### **Single 😍**
 
 ![predict2](images/pred2.PNG)
 
 &nbsp;
 
-### **In batch**
+### **😐 In batch**
 
 ![batch](images/vismo.JPG)
 
