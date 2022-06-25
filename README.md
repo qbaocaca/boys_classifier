@@ -1,66 +1,84 @@
-# image_classification on boys dataset
+# Pytorch BoysClassifier 🔥
 
-### _On this assignment, I create a custom dataset of 5 male modelsin a full pytorch training pipeline. I use a pretrained model and transfer learning, as well as do hyper-parameter search to help increase the accuracy._
+<div align="center">
+  <img alt="baocaca | fired_neuron" src="https://photo-cms-tpo.zadn.vn/Uploaded/2022/uug_onattvnat/2020_12_01/Machida_gif_1__JWXT.gif" />
+</div>
 
-&nbsp;
+### _On this project, I create a custom dataset of 5 male models and conduct a full Pytorch training pipeline. I use a pretrained model and transfer learning, as well as do hyper-parameter search to help increase the accuracy._
 
-### Analysis and evaluation are documented here.
+## 📺 **Youtube Videos:**
 
-### - _Full Pytorch training pipeline on image classification task [ part1 ]_
+<!-- YOUTUBE:START -->
 
-### - _Full Pytorch training pipeline on image classification task [ part2 ]_
+- [Visualize images in image classification task.](https://www.youtube.com/watch?v=vzr0pAU0BC0)
+- [Full Pytorch training pipeline on image classification task.](https://www.youtube.com/watch?v=tfYR8JMt0xA)
+<!-- YOUTUBE:END -->
 
-&nbsp;
+## **✍️ Analysis and Evaluation:**
 
-### _Most of my implementations are based off [Aladdin Persson] and [Python Engineer]._
+### - _Full Pytorch Training Pipeline on Image Classification [part1]_
 
-&nbsp;
+### - _Full Pytorch Training Pipeline on Image Classification [part2]_
 
-## In this repository, there are:
-
-### - a main script for training (using the pretrained vgg16 and transfer learning).
-
-### - a script for hyperparameter search.
-
-### - a script for loading the model either for resumed training or for inference.
-
-### - [a trained model] (45% accuracy).
-
-### - some helper functions
-
-### - a dataset
+### _📺 My implementations are based off [Aladdin Persson] and [Python Engineer]._
 
 &nbsp;
 
-## Dataset structure
+## **🎲 Repository Content**
+
+### - A training script (using pretrained vgg16 and transfer learning)
+
+### - A script for Hyper-parameter Search
+
+### - A script for loading the model for either resumed training or inference
+
+### - [A trained model] (45% accuracy) 😬
+
+### - Some helper functions
+
+### - A dataset
+
+&nbsp;
+
+## **📰 Dataset Structure**
 
     train/val
-    |_________chau_minh_chi
-              |_________chau_minh_chi_01.jpg
-              |_________chau_minh_chi_02.jpg
+    |___chau_minh_chi
+           |___chau_minh_chi_01.jpg
+              |___chau_minh_chi_02.jpg
               ...
-    |_________keita_machida
-              |_________keita_machida_01.jpg
-              |_________keita_machida_02.jpg
+    |___keita_machida
+           |___keita_machida_01.jpg
+              |___keita_machida_02.jpg
               ...
 
 &nbsp;
 
-## Results
+## **Small batch visualization**
 
-## - **Visualization**
-
-![image1](images/visualize.PNG)
+![small](images/small.JPG)
 
 &nbsp;
 
-## - **Hyper-parameter search**
+## **Large batch visualization**
+
+![large](images/batch.JPG)
+
+&nbsp;
+
+## **Visualize the number of classes**
+
+![class](images/class.JPG)
+
+&nbsp;
+
+## **😑 Hyper-parameter Search**
 
 ![search](images/Search.JPG)
 
 &nbsp;
 
-## - **Training epochs**
+## **💥 Training Epochs**
 
     ==> Saving new best
     Epoch 1/25
@@ -82,15 +100,13 @@
 
 &nbsp;
 
-## - **Loss and accuracy**
+## **😌 Visualize Loss and Accuracy**
 
 ![lossacc](images/newdrawing.JPG)
 
 &nbsp;
 
-## - **Evaluation**
-
-### **Accuracy of each class**
+## **😅 Accuracy of Each Class**
 
     Test Acc
     Got 13/30 correct samples over 43.33%
@@ -102,21 +118,19 @@
 
 &nbsp;
 
-### **Classification report and confusion matrix heatmap**
+## **😞 Classification Report and Confusion Matrix Heatmap**
 
 ![confusion](images/confusion.PNG)
 
 &nbsp;
 
-## - **Predictions**
-
-### **Single**
+## **😍 Predict a single image**
 
 ![predict2](images/pred2.PNG)
 
 &nbsp;
 
-### **In batch**
+## **😐 Prediction In Batch**
 
 ![batch](images/vismo.JPG)
 
